@@ -20,22 +20,25 @@ function StudyCardContainer() {
 
     return(
         <div className="study-cards-container">
-            <header>
-                <h1>Academic Journey</h1>
-                <p className="subtitle">A visual representation of my educational background and qualifications</p>
-            </header>
+            <section id="study-card">
+                <header>
+                    <h1>Academic Journey</h1>
+                    <p className="subtitle">A visual representation of my educational background and qualifications</p>
+                </header>
 
-            <div className="cards-container single-column">
-                {StudyCards.map((education, index) => (
-                    <StudyCard
-                        key={index}
-                        degree={education.degree}
-                        institution={education.institution}
-                        date={education.date}
-                        description={education.description}
-                    />
-                ))}
-            </div>
+                <div className="cards-container single-column">
+                    {StudyCards.map((education, index) => (
+                        <StudyCard
+                            key={index}
+                            degree={education.degree}
+                            institution={education.institution}
+                            date={education.date}
+                            description={education.description}
+                        />
+                    ))}
+                </div>
+            </section>
+
         </div>
     );
 }

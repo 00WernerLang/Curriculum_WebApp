@@ -1,6 +1,7 @@
 function StudyCard({degree, institution, date, description}) {
     return (
         <div className="study-card">
+
             <div className="card-header">
                 <span className="Date"> {date} </span>
                 <h2 className="degree">{degree}</h2>

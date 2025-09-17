@@ -1,8 +1,9 @@
+import CertificateCardContainer from "../components/CertificateCardContainer.jsx";
+
 function Certificates() {
     return (
         <div>
-            <h1>Certificates Page</h1>
-            <p>This is the Certificates page content.</p>
+            <CertificateCardContainer/>
         </div>
     );
 }
