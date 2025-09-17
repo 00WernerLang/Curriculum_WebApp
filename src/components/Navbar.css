@@ -9,8 +9,9 @@
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .nav-menu {
@@ -39,18 +40,6 @@
     font-weight: 600;
 }
 
-.nav-link.active::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 6px;
-    height: 6px;
-    background-color: white;
-    border-radius: 50%;
-}
-
 .hamburger {
     display: none;
     cursor: pointer;
@@ -66,21 +55,21 @@
 }
 
 @media (max-width: 768px) {
-    .hamburger{
+    .hamburger {
         display: flex;
     }
 
     .nav-menu {
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 50px;
         left: 0;
         right: 0;
         background: #2c3e50;
         flex-direction: column;
         align-items: center;
-        overflow: hidden;
+        justify-content: center;
+        gap: 0.5rem;
 
-        /* Animation states */
         max-height: 0;
         opacity: 0;
         pointer-events: none;
@@ -94,7 +83,7 @@
     }
 
     .nav-link {
-        width: 100%;
+        width: 100vw;
         text-align: center;
         padding: 1rem;
     }
