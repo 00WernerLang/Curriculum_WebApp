@@ -1,8 +1,14 @@
+import ProjectCardContainer from "../components/ProjectCardContainer.jsx";
+
 function Projects() {
     return (
         <div>
-            <h1>Projects Page</h1>
-            <p>This is the Projects page.</p>
+            <header>
+                <h1>Projects</h1>
+                <p className="subtitle">A showcase of my projects, highlighting the technologies used and their functionalities</p>
+            </header>
+
+            <ProjectCardContainer/>
         </div>
     );
 }

@@ -1,0 +1,93 @@
+.project-card {
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 500px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+#project-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card-header {
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.8rem;
+}
+
+.project-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+.project-card-content h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.technology-item {
+    background: #f0f4f8;
+    color: #2c3e50;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+}
+
+.technology-item:hover {
+    background: #d9e4ec;
+}
+
+.project-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #2c3e50;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.project-link:hover {
+    background: #1a252f;
+    transform: translateY(-2px);
+}
