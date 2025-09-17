@@ -1,8 +1,9 @@
+import StudyCardContainer from "../components/StudyCardContainer.jsx";
+
 function Studies(){
     return(
         <div>
-            <h1>Studies Page</h1>
-            <p>This is the Studies page content.</p>
+            <StudyCardContainer/>
         </div>
     );
 }
