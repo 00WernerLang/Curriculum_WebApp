@@ -1,23 +1,33 @@
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
+import {Route, Routes} from "react-router";
+import Home from "./pages/Home.jsx";
+import Studies from "./pages/Studies.jsx";
+import Projects from "./pages/Projects.jsx";
+import Certificates from "./pages/Certificates.jsx";
+import React from "react";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
-            <main className="main-content">
-                <div className="container">
-                    <h1>Welcome to My App</h1>
-                    <p>Test content.</p>
+            <Routes>
+                <Route path = "/" element={<App/>} />
 
-                    <div className="content-section">
-                        <h2>About Werner Lang</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.</p>
-                    </div>
+                <Route index element={<Home/>}/>
+                <Route path="home" element={<Home/>}/>
 
-                </div>
-            </main>
+                <Route index element={<Studies/>}/>
+                <Route path="studies" element={<Studies/>}/>
+
+                <Route index element={<Projects/>}/>
+                <Route path="projects" element={<Projects/>}/>
+
+                <Route index element={<Certificates/>}/>
+                <Route path="certificates" element={<Certificates/>}/>
+
+            </Routes>
             <Footer />
         </div>
     );

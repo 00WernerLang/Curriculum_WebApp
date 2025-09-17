@@ -1,5 +1,5 @@
 import './Footer.css';
-import { FaGithub, FaPhone, FaEnvelope, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
     new Date().getFullYear();
@@ -9,10 +9,6 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3 className="footer-title">Get in Touch</h3>
                     <div className="contact-info">
-                        <div className="contact-item">
-                            <FaPhone className="contact-icon" />
-                            <span>+51 981 214 557</span>
-                        </div>
                         <div className="contact-item">
                             <FaEnvelope className="contact-icon" />
                             <a href="mailto:wlang0000@gmail.com">wlang0000@gmail.com</a>
@@ -28,16 +24,6 @@ const Footer = () => {
                             </a>
                         </div>
                     </div>
-                </div>
-
-                <div className="footer-section">
-                    <h3 className="footer-title">Quick Links</h3>
-                    <ul className="footer-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
-                    </ul>
                 </div>
 
                 <div className="footer-section">
