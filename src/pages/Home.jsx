@@ -8,7 +8,7 @@ function Home(){
         <div>
             <header>
                 <h1>Werner Lang</h1>
-                <p className="subtitle">Software engineering pregrad student coursing 6th cycle on university.</p>
+                <p className="subtitle">Software engineering pregrad student.</p>
             </header>
 
             <section id="skills">
