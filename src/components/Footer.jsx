@@ -25,23 +25,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="footer-section">
-                    <h3 className="footer-title">My work-related socials</h3>
-                    <div className="social-links">
-                        <a
-                            href="https://github.com/00WernerLang"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="social-link"
-                        >
-                            <FaGithub />
-                        </a>
-                        <a href="#" className="social-link">
-                            <FaEnvelope />
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <div className="footer-bottom">
