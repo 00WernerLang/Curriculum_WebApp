@@ -13,7 +13,7 @@ function SkillCardContainer(){
         },
         {
             type: "Database",
-            skills: ["MySQL", "SQLServer", "MongoDB"]
+            skills: ["MySQL", "SQLServer", "MongoDB", "MariaDB"]
         },
         {
             type: "Languages",
