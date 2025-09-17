@@ -13,20 +13,11 @@ function App() {
         <div className="App">
             <Navbar />
             <Routes>
-                <Route path = "/" element={<App/>} />
-
                 <Route index element={<Home/>}/>
                 <Route path="home" element={<Home/>}/>
-
-                <Route index element={<Studies/>}/>
                 <Route path="studies" element={<Studies/>}/>
-
-                <Route index element={<Projects/>}/>
                 <Route path="projects" element={<Projects/>}/>
-
-                <Route index element={<Certificates/>}/>
                 <Route path="certificates" element={<Certificates/>}/>
-
             </Routes>
             <Footer />
         </div>
