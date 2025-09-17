@@ -1,8 +1,10 @@
+import SkillCardContainer from "../components/SkillCardContainer.jsx";
+
 function Home(){
     return(
         <div>
-            <h1>Home Page</h1>
-            <p>Welcome to the Home Page!</p>
+
+            <SkillCardContainer/>
         </div>
     )
 }
