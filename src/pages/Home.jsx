@@ -12,7 +12,7 @@ function Home(){
             </header>
 
             <section id="skills">
-                <h2>My Skills</h2>
+                <h2>Skills</h2>
                 <SkillCardContainer/>
             </section>
         </div>
