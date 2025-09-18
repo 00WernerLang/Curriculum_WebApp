@@ -26,7 +26,7 @@ function ProjectCardContainer() {
         <div className="project-cards-container">
             <section id="project-card">
 
-                <div className="cards-container">
+                <div className="project-cards-container">
                     {ProjectCards.map((project, index) => (
                         <ProjectCard
                             key={index}
