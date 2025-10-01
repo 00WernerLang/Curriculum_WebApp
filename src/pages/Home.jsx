@@ -8,7 +8,7 @@ function Home(){
         <div>
             <header>
                 <h1>Werner Lang</h1>
-                <p className="subtitle">Software Engineering student (6th cycle) with practical experience in front- and
+                <p className="subtitle">Software Engineering student with practical experience in front- and
                     back-end development. I have participated in full-stack projects using Angular, React, Vue, Spring
                     Boot, and .NET.
                     I work with relational and NoSQL databases (MySQL, SQL Server, MongoDB) and program in Java, C#,
