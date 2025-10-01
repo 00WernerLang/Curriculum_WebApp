@@ -10,10 +10,6 @@ const Footer = () => {
                     <h3 className="footer-title">Get in Touch</h3>
                     <div className="contact-info">
                         <div className="contact-item">
-                            <FaEnvelope className="contact-icon" />
-                            <a href="mailto:wlang0000@gmail.com">wlang0000@gmail.com</a>
-                        </div>
-                        <div className="contact-item">
                             <FaGithub className="contact-icon" />
                             <a
                                 href="https://github.com/00WernerLang"
