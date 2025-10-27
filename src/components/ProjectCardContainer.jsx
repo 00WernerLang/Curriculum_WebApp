@@ -13,12 +13,6 @@ function ProjectCardContainer() {
             description: "A marketplace for technicians and clients to connect, find jobs, and manage work orders efficiently.",
             Technologies: ["Vue", ".NET", "MySQL", "TypeScript", "CSS"],
             link: "https://github.com/WASwarm1"
-        },
-        {
-            name: "Curriculum_WebApp",
-            description: "A personal portfolio website to showcase my projects, skills, and experience as a software developer.",
-            Technologies: ["React", "JavaScript", "CSS", "HTML"],
-            link: "https://github.com/00WernerLang/Curriculum_WebApp"
         }
     ]
 
