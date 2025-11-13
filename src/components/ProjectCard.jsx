@@ -1,6 +1,6 @@
 import "./ProjectCards.css"
 
-function ProjectCard({name, description, Technologies, link}) {
+function ProjectCard({name, description, link}) {
     return (
         <div className="project-card">
             <section id="project-card">

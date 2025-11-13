@@ -26,7 +26,6 @@ function ProjectCardContainer() {
                             key={index}
                             name={project.name}
                             description={project.description}
-                            Technologies={project.Technologies}
                             link={project.link}
                         />
                     ))}
