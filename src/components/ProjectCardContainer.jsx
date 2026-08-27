@@ -19,6 +19,12 @@ function ProjectCardContainer() {
             description: "Inventory management system for restaurants to track their financials and stock levels in real-time.",
             Technologies: ["Angular", "SpringBoot"],
             link: "https://github.com/Fundamentos-de-Arquitectura"
+        },
+        {
+            name: "WeRide",
+            description: "Mobile platform that enables users to locate, unlock and rent e-scooters/bikes via GPS and real-time telemtery.",
+            Technologies: ["Kotlin", "Flutter", ,"MySQL" ,"Springboot"],
+            link: "https://github.com/Grupo-2-Aplicaciones-Moviles"
         }
     ]
 

@@ -5,7 +5,7 @@ function SkillCardContainer(){
     const SkillCards = [
         {
             type: "Frontend",
-            skills: ["Angular", "React", "Vue"]
+            skills: ["Angular", "React", "Vue", "Flutter"]
         },
         {
             type: "Backend",
@@ -13,7 +13,7 @@ function SkillCardContainer(){
         },
         {
             type: "Database",
-            skills: ["MySQL", "SQLServer", "MongoDB", "MariaDB"]
+            skills: ["MySQL", "SQLServer", "MongoDB", "MariaDB", "PostgreSQL"]
         },
         {
             type: "Languages",
